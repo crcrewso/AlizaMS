@@ -3100,7 +3100,7 @@ void AnonymazerWidget2::init_profile()
 	uid_tags            .insert(mdcm::Tag(0x0040,0xa171));// Observation UID
 	descr_remove_tags   .insert(mdcm::Tag(0x0010,0x2180));// Occupation
 	remove_tags         .insert(mdcm::Tag(0x0008,0x1072));// Operator Identification Sequence
-	pn_tags             .insert(mdcm::Tag(0x0008,0x1070));// Operators' Name
+	//pn_tags             .insert(mdcm::Tag(0x0008,0x1070));// Operators' Name
 	remove_tags         .insert(mdcm::Tag(0x0040,0x2010));// Order Callback Phone Number
 	remove_tags         .insert(mdcm::Tag(0x0040,0x2011));// Order Callback Telecom Information
 	remove_tags         .insert(mdcm::Tag(0x0040,0x2008));// Order Entered By
@@ -3159,7 +3159,7 @@ void AnonymazerWidget2::init_profile()
 	remove_tags         .insert(mdcm::Tag(0x0040,0x1103));// Person's Telephone Numbers
 	//                                   (0x0040,0x1101)  // Person Identification Code Sequence
 	pn_tags             .insert(mdcm::Tag(0x0040,0xa123));// Person Name
-	remove_tags         .insert(mdcm::Tag(0x0008,0x1048));// Physician(s) of Record
+	//remove_tags         .insert(mdcm::Tag(0x0008,0x1048));// Physician(s) of Record
 	remove_tags         .insert(mdcm::Tag(0x0008,0x1049));// Physician(s) of Record Identification Sequence
 	remove_tags         .insert(mdcm::Tag(0x0008,0x1062));// Physician(s) Reading Study Identification Sequence
 	remove_tags         .insert(mdcm::Tag(0x4008,0x0114));// Physician Approving Interpretation
@@ -3227,7 +3227,7 @@ void AnonymazerWidget2::init_profile()
 	descr_remove_tags   .insert(mdcm::Tag(0x4008,0x4000));// Results Comments
 	remove_tags         .insert(mdcm::Tag(0x4008,0x0118));// Results Distribution List Sequence
 	remove_tags         .insert(mdcm::Tag(0x4008,0x0042));// Results ID Issuer
-	pn_tags             .insert(mdcm::Tag(0x300e,0x0008));// Reviewer Name
+	//pn_tags             .insert(mdcm::Tag(0x300e,0x0008));// Reviewer Name
 	descr_remove_tags   .insert(mdcm::Tag(0x3006,0x0028));// ROI Description
 	descr_remove_tags   .insert(mdcm::Tag(0x3006,0x0038));// ROI Generation Description
 	pn_tags             .insert(mdcm::Tag(0x3006,0x00a6));// ROI Interpreter
@@ -3302,7 +3302,7 @@ void AnonymazerWidget2::init_profile()
 	descr_remove_tags   .insert(mdcm::Tag(0x0032,0x4000));// Study Comments
 	time_tags           .insert(mdcm::Tag(0x0008,0x0020));// Study Date
 	descr_remove_tags   .insert(mdcm::Tag(0x0008,0x1030));// Study Description
-	empty_tags          .insert(mdcm::Tag(0x0020,0x0010));// Study ID
+	//empty_tags          .insert(mdcm::Tag(0x0020,0x0010));// Study ID
 	remove_tags         .insert(mdcm::Tag(0x0032,0x0012));// Study ID Issuer
 	uid_tags            .insert(mdcm::Tag(0x0020,0x000d));// Study Instance UID
 	time_tags           .insert(mdcm::Tag(0x0008,0x0030));// Study Time
